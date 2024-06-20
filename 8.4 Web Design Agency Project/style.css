@@ -12,19 +12,13 @@ body {
 }
 
 .tile-image {
-  height: 200px;
+  height: auto;
   float: left;
   margin-right: 50px;
 }
 
 div {
   display: inline-block;
-}
-
-.tile-image {
-  height: 100px;
-  float: left;
-  margin-right: 50px;
 }
 
 h1{
