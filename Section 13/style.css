@@ -1,14 +1,48 @@
-*,*::after,*::before{
-    margin: 0;
-    padding: 0;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.body {
+  color: rgb(52, 52, 52);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .TopContainer {
-    background-color: rgb(162, 210, 224);
-    height: 100vh;
+  background-color: rgb(198, 237, 249);
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
 }
 
-.mountain {
-    display: flex;
-    justify-content: center;
+.leftCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.h2 {
+  color: rgb(129, 129, 190);
+  font-size: 20px;
+  margin: 50px auto 0 auto;
+  font-family: cursive;
+}
+
+.AProgrammer {
+  font-family: cursive;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.rightCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middleContainer {
+  margin: 100px 0;
 }
