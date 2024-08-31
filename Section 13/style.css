@@ -6,22 +6,9 @@
   text-align: center;
 }
 
-.body {
+body {
   color: rgb(52, 52, 52);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.TopContainer {
-  background-color: rgb(198, 237, 249);
-  height: 100vh;
-  position: relative;
-  padding-top: 100px;
-}
-
-.leftCloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
 }
 
 .h2 {
@@ -29,20 +16,55 @@
   font-size: 20px;
   margin: 50px auto 0 auto;
   font-family: cursive;
-}
-
-.AProgrammer {
-  font-family: cursive;
-  font-weight: normal;
   padding-bottom: 10px;
 }
 
-.rightCloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+.h1 {
+  color: rgb(102, 191, 191);
+  ont-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.TopContainer {
+  background-color: rgb(198, 237, 249);
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+
+  .leftCloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+
+  .titleText {
+    color: #66bfbf;
+    font-family: Dancing Script;
+    font-size: 88px;
+  }
+
+  .AProgrammer {
+    font-family: cursive;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .rightCloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
 }
 
 .middleContainer {
-  margin: 100px 0;
+  .profile {
+    margin-bottom: 100px;
+  }
 }
