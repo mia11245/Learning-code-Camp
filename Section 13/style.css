@@ -11,7 +11,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.h2 {
+h2 {
   color: rgb(129, 129, 190);
   font-size: 20px;
   margin: 50px auto 0 auto;
@@ -19,9 +19,9 @@ body {
   padding-bottom: 10px;
 }
 
-.h1 {
+h1 {
   color: rgb(102, 191, 191);
-  ont-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-bottom: 10px;
 }
 
@@ -34,7 +34,6 @@ hr {
 
 .TopContainer {
   background-color: rgb(198, 237, 249);
-  height: 100vh;
   position: relative;
   padding-top: 100px;
 
@@ -44,7 +43,7 @@ hr {
     top: 40px;
   }
 
-  .titleText {
+  .titleText h1 {
     color: #66bfbf;
     font-family: Dancing Script;
     font-size: 88px;
