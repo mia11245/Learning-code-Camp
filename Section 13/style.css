@@ -11,18 +11,26 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-  color: rgb(129, 129, 190);
-  font-size: 20px;
-  margin: 50px auto 0 auto;
-  font-family: cursive;
-  padding-bottom: 10px;
-}
-
 h1 {
   color: rgb(102, 191, 191);
   font-family: "Montserrat", sans-serif;
   padding-bottom: 10px;
+}
+
+h2 {
+  color: #00abb4;
+  font-size: 20px;
+  margin: 50px auto 0 auto;
+  font-family: Fredoka;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #008b92;
+  font-size: 1.17em;
+  font-weight: bold;
 }
 
 hr {
@@ -50,8 +58,10 @@ hr {
   }
 
   .AProgrammer {
-    font-family: cursive;
-    font-weight: normal;
+    font-family: Dancing Script;
+    font-size: 2.5rem;
+    font-weight: Bold;
+    color: #3e567c;
     padding-bottom: 10px;
   }
 
@@ -65,5 +75,9 @@ hr {
 .middleContainer {
   .profile {
     margin-bottom: 100px;
+  }
+
+  .intro {
+    width: 50px;
   }
 }
