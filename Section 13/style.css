@@ -4,6 +4,15 @@
   margin: 0;
   padding: 0;
   text-align: center;
+} 
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 2;
 }
 
 body {
@@ -27,9 +36,14 @@ h2 {
   font-weight: normal;
 }
 
-h3 {
+h3 {  
   color: #008b92;
+  display: block;
   font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -119,9 +133,9 @@ a {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Open Sans;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px 20px 10px 20px;
   margin-bottom:100px;
   text-decoration: none;
