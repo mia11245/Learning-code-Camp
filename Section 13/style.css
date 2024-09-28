@@ -112,6 +112,7 @@ a {
     margin: 100px auto 0 auto;
     text-align: left;
     row-gap: 2rem;
+    align-items: center;
   }
 
   .imageOfCat {
@@ -120,7 +121,7 @@ a {
   }
 
   .contactMessage {
-    width: 40%;
+    width: 100%;
     margin: 40px auto 60px;
   }
 
@@ -187,7 +188,19 @@ a {
   }
 
   .contactMessage {
-    font-size: 20px;
+    width: 100%;
+    margin: 40px auto 60px;
+  }
+
+  .imageOfCat {
+    width: 100px;
+    height: 100px;
+  }
+
+  .typingCat {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
   }
 
   .btn {
